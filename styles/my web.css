@@ -1,23 +1,77 @@
-.bannar{
+.banner{
+    position: relative;
+}
+
+.banner{
     width: 1320px;
 height: 600px;
-border-radius: 16px;
-align-items: center;margin: auto;
+
+}
+
+
+
+.banner text{
+position: absolute;
+padding: 10px;
+top: 0;
+
+    
 
 
 }
-.head{align-items: center;
-  
+
+.off{
+    color: #F00;
 text-align: center;
-font-size: 32px;
-font-weight: 400;
+font-size: 88px;
+font-weight: 700;
+
 
 }
+.our{
+    color: #F00;
+    text-align: center;
+font-size: 24px;
+ font-weight: 500;
+  
+}
+.all{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
-.new{
-    align-items: center;
-font-size: 72px;
+}
+.picture{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    padding: 380px 390px;
+}
+.vector{
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+padding: 140px 140px;
+
+}
+.welcome{
+    width: 642px;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
 font-weight: 900;
-line-height: 95px; 
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+
+,dolor{
+    width: 697px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 
 }
