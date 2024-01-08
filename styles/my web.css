@@ -1,0 +1,23 @@
+.bannar{
+    width: 1320px;
+height: 600px;
+border-radius: 16px;
+align-items: center;margin: auto;
+
+
+}
+.head{align-items: center;
+  
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+
+}
+
+.new{
+    align-items: center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; 
+
+}
