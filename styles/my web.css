@@ -2,29 +2,49 @@
     position: relative;
 }
 
-.banner{
+
+.header{
+    background-image: url(../resources/Banner\ Image.png);
     width: 1320px;
 height: 600px;
+border-radius: 16px;
+align-items: center;
 
 }
+.text{
+
+    color: #FFF;
+    padding: 177px  530px 380px 530px;
+   text-align: center ;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.paragraph{
+
+    width: 632px;
+    padding: 233px 344px 177px 344px;
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+
+font-weight: 900px;
+line-height: 95px;
 
 
-
-.banner text{
-position: absolute;
-padding: 10px;
-top: 0;
-
+}
     
-
-
-}
 
 .off{
     color: #F00;
 text-align: center;
 font-size: 88px;
 font-weight: 700;
+padding: 0;
 
 
 }
@@ -51,13 +71,14 @@ font-size: 24px;
     padding: 380px 390px;
 }
 .vector{
-    width: 1320px;
+   background-image: url('../resources/Vectorrr.png');
+   width: 1320px;
 height: 600px;
-flex-shrink: 0;
-padding: 140px 140px;
+padding: ;
 
 }
-.welcome{
+.welcome{padding: 126px 552px 250px 125px;
+    align-items: center;
     width: 642px;
 font-family: Merriweather;
 font-size: 64px;
@@ -67,11 +88,7 @@ line-height: 88px; /* 137.5% */
 letter-spacing: 7.04px;
 }
 
-,dolor{
-    width: 697px;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-
+.dolor{
+    
+    
 }
